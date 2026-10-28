@@ -4,7 +4,7 @@ A responsive event landing page built with HTML and CSS for a Campus Code Club b
 
 ## Preview
 
-Open `index.html` in a browser. The page uses `style.css` for its layout and styling.
+Open https://yassineladl14.github.io/Campus-Code-Club-Build-Night/ to see the site.
 
 ## What it demonstrates
 
