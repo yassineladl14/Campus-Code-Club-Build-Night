@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Build Night | Campus Code Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#top">Campus Code Club</a>
+
+        <nav aria-label="Main navigation">
+            <a href="#schedule">Schedule</a>
+            <a href="#speakers">Speakers</a>
+            <a href="#reserve">Join</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section id="title">
+            <h1>Build Night</h1>
+
+            <p>
+                Come spend an evening coding, enjoying some snacks,
+                and learning how to build your first website.
+            </p>
+
+            <p>Friday evening | Room 204</p>
+            <a href="#reserve">Reserve My Seat</a>
+        </section>
+
+        <div id="layout">
+            <section id="details">
+                <section id="schedule">
+                    <h2>Schedule</h2>
+
+                    <ul>
+                        <li>Arrive, get settled, and ask for help if needed</li>
+                        <li>Watch us build a webpage from scratch</li>
+                        <li>Work on your own project with a partner</li>
+                        <li>Share what you've created with everyone</li>
+                    </ul>
+                </section>
+
+                <section id="speakers">
+                    <h2>Speakers</h2>
+
+                    <div id="list">
+                        <article>
+                            <h3>Priya N.</h3>
+                            <p>Frontend mentor. Loves tidy CSS</p>
+                        </article>
+
+                        <article>
+                            <h3>Marcus L.</h3>
+                            <p>Accessibility fan. Test with a keyboard.</p>
+                        </article>
+                        <article>
+                            <h3>Aiko T.</h3>
+                            <p>Design student. Collect colour palettes</p>
+                        </article>
+                    </div>
+                </section>
+            </section>
+
+            <aside id="good">
+                <h2>Good to Know</h2>
+
+                <ul>
+                    <li>Bring your laptop</li>
+                    <li>Install VS Code and Google Chrome</li>
+                    <li>Snacks provided</li>
+                    <li>Beginners welcome</li>
+                </ul>
+            </aside>
+        </div>
+
+        <section id="reserve">
+            <h2>Interested in Build Night?</h2>
+            <p>Send Alex a message to ask about a seat.</p>
+            <a href="#name">Ask About a Seat</a>
+        </section>
+
+        <section id="contact">
+            <article>
+                <p id="alex-initials">AM</p>
+                <div>
+                    <h2>Alex Morgan</h2>
+
+                    <p class="job-title">
+                        Frontend Developer
+                    </p>
+
+                    <p>Building friendly, accessible websites. Currently
+                        learning CSS with GDG on campus
+                    </p>
+
+                    <a href="#name">Say Hello</a>
+                </div>
+            </article>
+
+            <form>
+                <h2>Send Alex a Message</h2>
+                <p class="form-note">This demo form does not send messages yet.</p>
+
+                <p>
+                    <label for="name">Your Name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Your Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
